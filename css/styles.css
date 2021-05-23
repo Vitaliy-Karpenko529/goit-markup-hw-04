@@ -239,6 +239,14 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-description-color);
 }
+.skills-icon-container{
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color-section);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+}
 /*Секция услуг*/
 .section-services{
     padding-bottom: 90px;
@@ -374,11 +382,11 @@ margin-bottom: 16px;
 .main-footer-container{
     display: flex;
     align-items: baseline;
-}
-.footer-container{
     padding-bottom: 60px;
     padding-top: 60px;
-    padding-right: 0;
+}
+.footer-container{
+    margin-right: 70px;
 }
 .logo-text-futer{
 font-family: var(--secondery-font);
@@ -422,6 +430,8 @@ color: var(--adres-color);
     margin-bottom: 9px;
 }
       /*====Соц-сети футер====*/
+.footer-social-container{
+}
 .footer-social-title{
 font-family: var(--main-font);
 font-weight: bold;
