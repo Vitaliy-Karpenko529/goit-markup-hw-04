@@ -170,7 +170,6 @@ fill:currentColor;
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
-    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
@@ -240,12 +239,14 @@ letter-spacing: 0.03em;
 color: var(--primary-description-color);
 }
 .skills-icon-container{
+    display: flex;
     width: 270px;
     height: 120px;
     background-color: var(--background-color-section);
     border-radius: 4px;
     margin-bottom: 30px;
-    padding: 25px 100px;
+    justify-content: center;
+    align-items: center;
 }
 /*Секция услуг*/
 .section-services{
@@ -284,7 +285,7 @@ color: var(--primary-text-color);
     padding-bottom: 30px;
 }
 .team-list-item{
-    width: 270px;
+ width: 270px;
 margin-left: 30px;
 margin-top: 30px;
 background-color: var(--primary-navigation-color);
@@ -430,8 +431,6 @@ color: var(--adres-color);
     margin-bottom: 9px;
 }
       /*====Соц-сети футер====*/
-.footer-social-container{
-}
 .footer-social-title{
 font-family: var(--main-font);
 font-weight: bold;
@@ -444,6 +443,9 @@ margin-bottom: 20px;
 }
 .footer-social-list{
     display: flex;
+}
+.footer-social-item:not(:last-child){
+    margin-right: 10px;
 }
 .footer-social-icon{
     width: 20px;
